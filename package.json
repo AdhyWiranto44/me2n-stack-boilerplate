@@ -1,0 +1,25 @@
+{
+  "name": "me2n-stack-boilerplate",
+  "version": "0.1.0",
+  "description": "ME2N => Mongodb, ExpressJS, EJS, NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "mongoose": "^6.0.13"
+  }
+}
